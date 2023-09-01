@@ -14,6 +14,7 @@ const data =[
     {id:4,name:"mithila",number:"0-9r9rrrr99rr9rr9r949440"},
     {id:5,name:"sucharita",number:"0-irrrr994949494040"},
 ]
+// code
 app.get('/users',(req,res) =>{
     console.log(req.query)
     if(req.query.name){
